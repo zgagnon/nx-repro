@@ -35,4 +35,4 @@ jobs:
       - name: Install Deps
         run: pnpm i
       - run: pnpm nx build repro-app
-      - run: cat dist/apps/repro-app/with-nx.js
+      - run: cat dist/apps/repro-app/.next/server/pages/index.html
